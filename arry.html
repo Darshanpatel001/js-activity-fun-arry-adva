@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arry = [1,2,3,4,5,6]
+        console.log([arry,[3]],length);
+    </script>
+
+
+<!-- ===============map-method================ -->
+
+<!-- map methode is call back funcation return -->
+  <script>
+    let arry2 = [1,2,3,4,5,6,7,8,9,99,77,88,8]
+      arry2 .map ((val,ind)=>{
+        console.log(val);
+        console.log(ind,"index");
+    })
+
+
+    // ==================filter methode=================
+
+       let input = "tv";
+        let arr = ["watch", "ring", "tv"];
+
+        let result = arr.filter((val) => console.log(val));
+
+        console.log(result);
+
+        // ================push and pop methode =============
+
+        let array = [1, 2, 34, 55,57,68,90,56];
+        array.pop();
+        array.pop();
+        array.push(12);
+        console.log(array);
+  </script>
+</body>
+</html>

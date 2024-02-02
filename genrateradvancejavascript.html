@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function * test ()
+        {
+           yield console.log("hello");
+            console.log("hello2");
+        }
+        let b = test()
+        console.log(b.next());
+      console.log(b.next());
+    </script>
+</body>
+</html>
